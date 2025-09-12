@@ -32,6 +32,14 @@ body {
     background: #0056b3;
   }
   
+  .check-btn {
+    background: #28a745;
+  }
+  
+  .check-btn:hover {
+    background: #218838;
+  }
+  
   table {
     border-collapse: collapse;
     width: 100%;
@@ -57,5 +65,27 @@ body {
   .inactive {
     color: red;
     font-weight: bold;
+  }
+    /* Styles cho input fields trong bảng */
+  .table-input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    background: #f8f9fa;
+    cursor: default;
+    font-size: 14px;
+    color: #495057;
+  }
+  
+  .table-input:disabled {
+    background: #f8f9fa;
+    color: #6c757d;
+    cursor: default;
+    opacity: 1;
+  }
+  
+  .table-input:disabled:hover {
+    border-color: #ddd;
   }
   

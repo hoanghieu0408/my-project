@@ -1,0 +1,32 @@
+[
+  {
+    "id": 2,
+    "name": "Leatech",
+    "url": "http://leatech.ddns.net/",
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "Test Site",
+    "url": "https://httpbin.org/status/200",
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Invalid Site",
+    "url": "https://this-site-does-not-exist-12345.com",
+    "active": false
+  },
+  {
+    "id": 5,
+    "name": "Hộ tịch",
+    "url": "http://192.168.1.46:1903/#/auth/login?returnUrl=%2F",
+    "active": false
+  },
+  {
+    "id": 7,
+    "name": "reikatachi",
+    "url": "https://reikatachi.vn/",
+    "active": true
+  }
+]

@@ -7,8 +7,8 @@ async function fetchWebsites() {
       table.innerHTML += `
         <tr>
           <td>${site.id}</td>
-          <td><input value="${site.name}" onchange="updateWebsite(${site.id}, this.value, null)"></td>
-          <td><input value="${site.url}" onchange="updateWebsite(${site.id}, null, this.value)"></td>
+          <td>${site.name}</td>
+          <td>${site.url}</td>
           <td class="${site.active ? 'active' : 'inactive'}">${site.active ? 'Hoạt động' : 'Không hoạt động'}</td>
           <td>
             <button onclick="deleteWebsite(${site.id})">Xóa</button>
